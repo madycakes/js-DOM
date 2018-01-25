@@ -60,3 +60,25 @@ Append this div element to the aliasParent div.*/
 //Final Boss
 /*9. Create your own profile.*/
 
+//jamie's ver
+// var newImg = document.createElement("img");
+// newImg.setAttribute("src", "https://images-na.ssl-images-amazon.com/images/I/41PSbsR4FvL._SL500_AC_SS350_.jpg");
+// var noImg = document.getElementsByTagName("img")[8];
+// var newDiv = document.getElementsByClassName("block3 col-sm-4")[2];
+// newDiv.replaceChild(newImg, noImg);
+
+//kyle;s ver
+// document.getElementsByClassName("block3 col-sm-4")[2].getElementsByTagName("img")[0].src ="https://images-na.ssl-images-amazon.com/images/I/41PSbsR4FvL._SL500_AC_SS350_.jpg";
+
+// var dElem = document.createElement("div");
+// var classChild = document.getElementsByClassName("block3 col-sm-4")[2];
+
+// dElem.id = "name9";
+// dElem.innerHTML = "tortie";
+// classChild.appendChild(dElem);
+
+
+//raf ver
+var newImg = document.getElementsByTagName("img")[8];
+newImg.src =  "https://images-na.ssl-images-amazon.com/images/I/41PSbsR4FvL._SL500_AC_SS350_.jpg";
+
